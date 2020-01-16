@@ -40,6 +40,7 @@ Bạn hoàn toàn có thể sử dụng và phát triển website lên một t�
 #### Hướng dẫn cài đặt
 - Tải sourcecode về giải nén
 - Cấu hình databse tại file .env
+- chạy lệnh php artisan key:generate, php artisan migrate
 - Tạo CSDL computerstore -> Import database (DATABASE ở thư mục databse/computerstore_fulldb.sql)
 - Đăng nhập admin tại: domain/admin   -   user/pass: admin/admin
 - Đăng nhập người dùng ở trang chủ hoặc bạn có thể tự đăng ký  -   user/pass: admin/123456
