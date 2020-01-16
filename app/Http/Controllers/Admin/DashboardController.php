@@ -26,8 +26,8 @@ class DashboardController extends Controller
         $statistics = DB::table('orders')->sum('total_money');
 //        $sum_statistics = DB::select(DB::raw('SELECT YEAR(`created_at`) as year, SUM(`total_money`) AS total FROM `orders` GROUP BY YEAR(`created_at`)'));
         $sum_statistics = DB::table('orders')
-            ->selectRaw('YEAR(`created_at`) as year')
-            ->selectRaw('SUM(`total_money`) AS total')
+            ->selectRaw('YEAR(created_at) as year')
+            ->selectRaw('SUM(total_money) as total')
             ->groupBy('year')
             ->get();
         // dd($sum_statistics);
