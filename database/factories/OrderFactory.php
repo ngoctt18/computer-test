@@ -12,6 +12,6 @@ $factory->define(Order::class, function (Faker $faker) {
         'delivered' => 'text',
         'address' => $faker->address,
         'status' => $faker->numberBetween(1, 3),
-        'created_at' => $faker->date($format = 'Y-m-d', $max = 'now')
+        // 'created_at' => $faker->date($format = 'Y-m-d', $max = 'now')
     ];
 });
