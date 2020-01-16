@@ -1,0 +1,57 @@
+.upload-image input[type=file] {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.upload-image {
+  position: relative;
+  text-align: center;
+  border: 1px dashed #d2d6de;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+}
+.upload-image img{
+  display: inline-block;
+  height: 100%;
+  width:100%;
+  vertical-align: middle;
+}
+.img_this_upload .anh i {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  z-index: 4;
+  cursor: pointer;
+}
+.img_this_upload .anh i {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  z-index: 4;
+  cursor: pointer;
+  color: #d4d4d4
+}
+.img_this_upload .anh i:hover {
+  color: #727276b0;
+}
+img{
+width: 100%;
+height: 128px;
+}
+.img_this_upload .anh{
+margin-top: 20px;
+}
+
+.img_this_upload img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.clear{
+  clear: both;
+}
