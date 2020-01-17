@@ -2,7 +2,7 @@
 Website giới thiệu sản phẩm và bán máy tính (Đồ công nghệ) full chức năng Laravel MVC + ShoppingCart + Giải thuật Kmean, Apriori
 
 #### Mô tả ngắn
-Website giới thiệu sản phẩm và bán máy tính (Đồ công nghệ) full chức năng Laravel MVC + ShoppingCart + Giải thuật Kmean, Apriori. Đồ án tốt nghiệp có sử dụng Giải thuật Kmean và Apriori mà thầy cô rất khuyến khích áp dụng
+Đồ án tốt nghiệp - website giới thiệu sản phẩm và bán đồ công nghệ, máy tính, điện thoại full chức năng sử dụng PHP Laravel MVC + ShoppingCart + Giải thuật Kmean, Apriori.
 
 #### Link demo
 http://computersstore.herokuapp.com/
@@ -43,8 +43,10 @@ Bạn hoàn toàn có thể sử dụng và phát triển website lên một t�
 - chạy lệnh php artisan key:generate, php artisan migrate
 - Tạo CSDL computerstore -> Import database (DATABASE ở thư mục databse/computerstore_fulldb.sql)
 - Đăng nhập admin tại: domain/admin   -   user/pass: admin/admin
+- Tạo virtual host
 - Đăng nhập người dùng ở trang chủ hoặc bạn có thể tự đăng ký  -   user/pass: admin/123456
 - Mọi thắc mắc các bạn có thể liên hệ với mình qua số điện thoại 0975853528
+-- Video hướng dẫn cài đặt project và demo https://www.mediafire.com/file/4okotzi2l9jlqo7/huong-dan-cai-dat-computerstore.mp4/file
 
 
 #### Từ khóa
